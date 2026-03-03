@@ -7,11 +7,9 @@ This repository contains the official codebase for the paper:
 Our system implements an **Adaptive Modeling Framework** for multilingual polarization detection across 22 languages.  
 The framework dynamically switches between:
 
-- High-capacity multilingual generalists (e.g., mDeBERTa-v3)
+- High-capacity multilingual generalists
 - Monolingual specialist models
 - Hybrid soft-voting ensembles  
-
-The selection strategy is driven by linguistic and empirical performance considerations.
 
 ---
 
