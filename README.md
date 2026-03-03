@@ -55,12 +55,24 @@ Python 3.9+ is recommended.
 
 ---
 
+## Limitations and Ethical Considerations
+
+Polarization detection is subjective and can be misused (e.g., profiling, censorship, or targeting individuals/groups). Use outputs with caution.
+
+- **Bias & overfitting:** Models may inherit dataset biases and sometimes over-predict the polarized class, mislabeling neutral/colloquial/dialectal speech.  
+- **Translation artifacts:** NLLB-200 augmentation was inconsistent and sometimes harmful, especially for morphologically rich languages, and may dilute local cultural context.  
+- **Privacy & ToS:** We release code and **numerical predictions only** (and identifiers where applicable). We do **not** distribute raw tweet text or personal data.
+
+For real deployments, prefer **human oversight**, transparency about limitations, and avoid using model outputs as the sole basis for moderation/enforcement decisions (especially under distribution shift).
+
+---
+
 ## Citation
 
 If you use this code, prediction files, or the Adaptive Modeling Framework in your research, please cite:
 
 ```bibtex
-@inproceedings{kianimoghadam2026mkj,
+@inproceedings{kianimoghadam-jouneghani-2026-mkj,
   title={MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization},
   author={Kianimoghadam Jouneghani, Maziar},
   booktitle={Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)},
