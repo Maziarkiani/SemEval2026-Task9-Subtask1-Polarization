@@ -48,7 +48,6 @@ def train_and_predict(model_name, alias, df_train, df_val, df_test, epochs):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 
-    # MuRIL stability settings (as in your file’s code style)
     if alias.lower() == "muril":
         model.gradient_checkpointing_enable()
         model.config.use_cache = False
