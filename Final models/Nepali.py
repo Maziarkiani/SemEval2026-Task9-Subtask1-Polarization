@@ -58,7 +58,7 @@ def main():
         num_labels=2
     )
 
-    # Keep cache on (no gradient checkpointing enabled here)
+    # cache on (no gradient checkpointing enabled here)
     model.config.use_cache = True
 
     def tokenize_fn(examples):
