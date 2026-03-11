@@ -49,7 +49,6 @@ def train_and_predict(model_name, alias, df_train, df_val, df_test, use_fast_tok
     else:
         tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=use_fast_tok)
 
-    # Master alignment: do not use ignore_mismatched_sizes here
     model = AutoModelForSequenceClassification.from_pretrained(
         model_name,
         num_labels=2
@@ -67,7 +66,6 @@ def train_and_predict(model_name, alias, df_train, df_val, df_test, use_fast_tok
     val_ds = val_ds.remove_columns([c for c in val_ds.column_names if c not in keep_cols])
     test_ds = test_ds.remove_columns([c for c in test_ds.column_names if c not in ["input_ids", "attention_mask"]])
 
-    # Master alignment: different hyperparams per model (keep save_strategy="epoch" as you requested)
     if alias == "parsbert":
         args = TrainingArguments(
             output_dir=f"./temp_{alias}",
