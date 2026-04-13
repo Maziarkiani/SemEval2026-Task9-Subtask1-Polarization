@@ -49,7 +49,6 @@ def train_and_predict(model_name, alias, df_train, df_val, df_test, use_fast=Tru
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=use_fast)
     model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
 
-    # Match the style used in-file for the Savasy run (checkpointing on, cache off)
     if alias == "savasy":
         model.gradient_checkpointing_enable()
         model.config.use_cache = False
