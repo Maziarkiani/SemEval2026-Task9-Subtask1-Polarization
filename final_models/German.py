@@ -70,7 +70,6 @@ def main():
     val_ds = val_ds.remove_columns([c for c in val_ds.column_names if c not in keep_cols])
     test_ds = test_ds.remove_columns([c for c in test_ds.column_names if c not in ["input_ids", "attention_mask"]])
 
-    # Keep save_strategy="epoch" as you requested
     args = TrainingArguments(
         output_dir="./temp_deu_gbert",
         eval_strategy="epoch",
