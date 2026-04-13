@@ -70,10 +70,11 @@ For real deployments, prefer **human oversight**, transparency about limitations
 If you use this code, prediction files, or the Adaptive Modeling Framework in your research, please cite:
 
 ```bibtex
-@inproceedings{kianimoghadam-jouneghani-2026-mkj,
+@inproceedings{jouneghani-2026-mkj,
   title={MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization},
   author={Kianimoghadam Jouneghani, Maziar},
   booktitle={Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)},
+  address={San Diego, California},
   year={2026},
   publisher={Association for Computational Linguistics}
 }
