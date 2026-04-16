@@ -1,17 +1,8 @@
 # MKJ at SemEval-2026 Task 9: Polarization Detection
 
-This repository contains the official codebase for the paper:
+This repository contains the codebase and final prediction files for the paper:
 
 **"MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization."**
-
-Our system implements an **Adaptive Modeling Framework** for multilingual polarization detection across 22 languages.  
-The framework dynamically switches between:
-
-- High-capacity multilingual generalists
-- Monolingual specialist models
-- Hybrid soft-voting ensembles  
-
----
 
 ## Repository Structure
 
