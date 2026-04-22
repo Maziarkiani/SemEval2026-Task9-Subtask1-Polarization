@@ -58,7 +58,7 @@ For real deployments, prefer **human oversight**, transparency about limitations
 
 ## Citation
 
-If you use this code, prediction files, or the Adaptive Modeling Framework in your research, please cite:
+If you use this code, prediction files, or the language-adaptive framework in your research, please cite:
 
 ```bibtex
 @inproceedings{jouneghani-2026-mkj,
