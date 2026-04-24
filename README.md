@@ -45,14 +45,8 @@ Python 3.9+ is recommended.
 ---
 
 ## Limitations and Ethical Considerations
-
-Polarization detection is subjective and can be misused (e.g., profiling, censorship, or targeting individuals/groups). Use outputs with caution.
-
-- **Bias & overfitting:** Models may inherit dataset biases and sometimes over-predict the polarized class, mislabeling neutral/colloquial/dialectal speech.  
-- **Translation artifacts:** NLLB-200 augmentation was inconsistent and sometimes harmful, especially for morphologically rich languages, and may dilute local cultural context.  
+ 
 - **Privacy & ToS:** We release code and **numerical predictions only** (and identifiers where applicable). We do **not** distribute raw tweet text or personal data.
-
-For real deployments, prefer **human oversight**, transparency about limitations, and avoid using model outputs as the sole basis for moderation/enforcement decisions (especially under distribution shift).
 
 ---
 
