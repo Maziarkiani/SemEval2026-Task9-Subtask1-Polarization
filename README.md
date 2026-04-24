@@ -4,6 +4,8 @@ This repository contains the codebase and final prediction files for the paper:
 
 **"MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization."**
 
+**[Read the paper on arXiv](https://arxiv.org/abs/2604.21370)**
+
 ## Repository Structure
 
 ```
