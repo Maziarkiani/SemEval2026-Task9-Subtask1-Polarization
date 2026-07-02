@@ -57,13 +57,18 @@ Python 3.9+ is recommended.
 If you use this code, prediction files, or the language-adaptive framework in your research, please cite:
 
 ```bibtex
-@inproceedings{jouneghani-2026-mkj,
-  title={MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization},
-  author={Kianimoghadam Jouneghani, Maziar},
-  booktitle={Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)},
-  address={San Diego, California},
-  year={2026},
-  publisher={Association for Computational Linguistics}
+@inproceedings{kianimoghadam-jouneghani-2026-mkj,
+    title = "{MKJ} at {S}em{E}val-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization",
+    author = "Kianimoghadam Jouneghani, Maziar",
+    booktitle = "Proceedings of the 20th {I}nternational {W}orkshop on {S}emantic {E}valuation (2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.semeval-1.181/",
+    doi = "10.18653/v1/2026.semeval-1.181",
+    pages = "1398--1406",
+    ISBN = "979-8-89176-414-9",}
 }
 ```
 
