@@ -68,7 +68,7 @@ If you use this code, prediction files, or the language-adaptive framework in yo
     url = "https://aclanthology.org/2026.semeval-1.181/",
     doi = "10.18653/v1/2026.semeval-1.181",
     pages = "1398--1406",
-    ISBN = "979-8-89176-414-9",}
+    ISBN = "979-8-89176-414-9",
 }
 ```
 
